@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "js": [ "asdwefdvtbbrtbfvbtffbthggh.js" ],
+      "matches": [ "*://*.eastbay.com/product/*", "*://*.footlocker.com/product/*", "*://*.footaction.com/product/*", "*://*.champssports.com/product/*" ]
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "author": "method",
+   "description": "Copyright (c) madgear (tm)",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGnTAImVhw2e8/9xmC1bfhX/ox32i8nKKV7WJ5cILeaQH7CRrEO7qHM3b7cZTxwkMXBrRYHvT80/qUmdjyG5RoSvhTv/80Bqa+IYjAWgrN0D1eJaxBpOJaXUyV5W8rOtxJWGh/zPQIG4TeSH32gL46AAEaryfs1flalg9sCVM7RQIDAQAB",
+   "manifest_version": 2,
+   "name": "madgear bot",
+   "options_page": "option.html",
+   "permissions": [ "tabs", "storage", "*://*.eastbay.com/product/*", "*://*.footlocker.com/product/*", "*://*.footaction.com/product/*", "*://*.champssports.com/product/*" ],
+   "version": "2.0"
+}
